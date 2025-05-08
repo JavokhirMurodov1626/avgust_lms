@@ -6,7 +6,7 @@ const LoginPage = () => {
   return (
     <section className="relative h-screen bg-[url('/images/bg_gradient.svg')] bg-cover">
       <div className="flex w-full mx-auto  h-full ">
-        <div className="left w-3/5 bg-white pb-6 px-5">
+        <div className="left w-3/5 bg-violet-100 pb-6 px-5 rounded-e-2xl">
           {/* <LoginSwiper /> */}
           {/* <video
             autoPlay
