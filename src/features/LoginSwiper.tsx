@@ -11,13 +11,13 @@ import slideThree from "/public/images/login_page_swiper_img_three.svg";
 export const LoginSwiper = () => {
   return (
     <Swiper pagination={true} modules={[Pagination]} className="login-swiper ">
-      <SwiperSlide>
+      <SwiperSlide className="bg-orange-400">
         <Image src={slideOne} alt="slide 1" />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide  className="bg-orange-400">
         <Image src={slideTwo} alt="slide 1" />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide  className="bg-orange-400">
         <Image src={slideThree} alt="slide 1" />
       </SwiperSlide>
     </Swiper>
