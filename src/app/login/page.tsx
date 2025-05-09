@@ -6,7 +6,7 @@ const LoginPage = () => {
   return (
     <section className="relative h-screen bg-[url('/images/bg_gradient.svg')] bg-cover">
       <div className="flex w-full mx-auto  h-full ">
-        <div className="left w-3/5 bg-violet-100 pb-6 px-5 rounded-e-2xl">
+        <div className="left w-3/5 bg-violet-100 pb-6 px-5 rounded-e-2xl hidden lg:block">
           {/* <LoginSwiper /> */}
           {/* <video
             autoPlay
@@ -30,12 +30,12 @@ const LoginPage = () => {
               data-wf-ignore="true"
             />
           </video> */}
-
+         
           <LoginAnimation />
         </div>
 
-        <div className="right w-2/5 self-center px-6">
-          <div className="mx-auto max-w-[600px] w-full bg-white p-10 rounded-lg">
+        <div className="right w-full lg:w-2/5 self-center md:px-6 px-2">
+          <div className="mx-auto max-w-[600px] w-full bg-white md:p-10 px-4 py-6 rounded-lg">
             <h1 className="text-3xl text-center font-interSemiBold mb-3 text-slate-800">
               Tizimga kirish
             </h1>
