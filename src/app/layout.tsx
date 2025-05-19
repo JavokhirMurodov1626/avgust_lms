@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import 'swiper/css';
+import "swiper/css";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -14,11 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="uz">
-      <body
-        className={` antialiased`}
-      >
-        {children}
-      </body>
+      <body className={` antialiased`}>{children}</body>
     </html>
   );
 }

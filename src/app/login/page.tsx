@@ -30,7 +30,7 @@ const LoginPage = () => {
               data-wf-ignore="true"
             />
           </video> */}
-         
+
           <LoginAnimation />
         </div>
 
